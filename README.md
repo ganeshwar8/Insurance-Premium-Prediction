@@ -1,4 +1,4 @@
-# insurance
+# insurance-premium-prediction
 
 ## software and tools requirements
 
