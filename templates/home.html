@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head><title>Home</title></head>
+
+    <body>
+
+        <form action="/health" method="post" target="_blank">
+
+            <h1>INSURANCE-PREMIUM-PREDICTION</h1><br/><br/>
+
+            <label>age :</label> <input type="txt" name="age"  required="required"/><br/><br/>
+
+            <label>sex :</label> <input type="radio" name="sex" value="m" required="required"/> male
+            <input type="radio" name="sex" value="f" required="required"/> female <br/><br/>
+
+            <label>bmi :</label> <input type="txt" name="bmi"  required="required"/><br/><br/>
+
+            <label>children :</label> <input type="txt" name="children" required="required"/><br/><br/>
+
+            <label>smoker :</label> <input type="radio" name="smoker" value="yes" required="required"/> yes
+            <input type="radio" name="smoker" value="no" required="required"/> no <br/><br/>
+
+            <label>region :</label> <select name="region" required>
+                <option value="">--select region--</option>
+                <option value="southwest">southwest</option>
+                <option value="southeast">southeast</option>
+                <option value="northwest">northwest</option>
+                <option value="northeast">northeast</option>
+            </select><br/><br/>
+
+            <button type="submit" style="background-color:red ;color:antiquewhite"class="btn "> predict</button>
+ 
+        </form>
+
+    </body>
+</html>
